@@ -1,0 +1,19 @@
+{
+    "name": "jetom/testes-com-phpunit",
+    "description": "Testes Unitarios com PHPUnit",
+    "authors": [
+        {
+            "name": "José Eduardo Tomaz",
+            "email": "jetomaz@gmail.com"
+        }
+    ],
+    "config":{
+        "bin-dir": "bin/"
+    },
+    "autoload": {
+        "psr-0": {"CodeEducation": "src/"}
+    },
+    "require": {
+        "phpunit/phpunit": "4.2.6"
+    }
+}
